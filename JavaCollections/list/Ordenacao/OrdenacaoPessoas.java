@@ -63,6 +63,7 @@ public class OrdenacaoPessoas{
 
     public void ordenarIdade(){
         Collections.sort(listaPessoas);
+        Collections.reverse(listaPessoas);
         for (Pessoa pessoa : listaPessoas) {
             System.out.println(pessoa);
         }
